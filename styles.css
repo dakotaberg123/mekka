@@ -1,0 +1,500 @@
+/* GREEN = #4EF253 */
+/* DARK GRAY = #2c3034 */
+/* ORANGE = #ff6812 */
+/* LIGHTBLUE = #00ccff */
+
+body {
+	width: 100%;
+	height: 2000px;
+	margin: 0;
+	padding: 0;
+}
+
+/*-----Header/Nav Start-----*/
+.header {
+	position: fixed;
+	top: 0;
+	width: 80vw;
+}
+
+#logo {
+	padding: 0;
+	margin: 0;
+	width: 15vw;
+	float: left;
+}
+
+header {
+	width: 80vw;
+	height: 7.5vw;
+	background: white;
+}
+
+.profilepic {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: #4EF253;
+	float: left;
+	margin: 3% 0 0 47vw;
+}
+
+.name {
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #2c3034;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 3vw 4vw 0 0;
+	padding: 0;
+	float: right;
+	width: 10vw;
+}
+
+.accountsignin {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4EF253;
+	width: 10vw;
+	margin: 0 4vw 0 0;
+	padding: 0;
+	float: right;
+}
+
+.nav {
+	padding: 0;
+	margin: 0;
+	background: white;
+	width: 80vw;
+}
+
+.nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	background: #2c3034;
+	margin: 0;
+	border-bottom: 2px solid #4EF253;
+	text-align: center;
+	width: 11.16vw;
+}
+
+.nav li a {
+	font-size: .9vw;
+	color: white;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: 300;
+	padding: 0 0;
+}
+
+.nav li a:hover {
+	color: #4EF253;
+}
+
+.nav li:hover {
+	border-bottom: 3px solid #4EF253;
+}
+/*-----Header/Nav End-----*/
+
+/*-----Strains of the Week Start-----*/
+.sotw {
+	background: none;
+	height: 220px;
+	margin: 150px 0 0 0;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+
+.sotwimg {
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0 0 0;
+	height: 195px;
+	width: 150px;
+	background: #2c3034;
+}
+
+.sotwbar {
+	color: #4EF253;
+	background: #2c3034;
+	height: 29px;
+	width: 458px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+
+.strainname {
+	color: white;
+	font-size: 13px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sotwimg p {
+	margin: 10px 0 0 0;
+	color: white;
+	font-size: 12px;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-align: center;
+	line-height: 14px;
+}
+
+.sotw ul {
+	margin-left: 0;
+}
+
+.sotwprice {
+	font-size: 17px;
+	color: #4EF253;
+	margin: 5px 0px;
+}
+
+.sotwunit {
+	font-size: 10px;
+	color: #4EF253;
+}
+
+.sponsoredby {
+	font-weight: bold;
+}
+
+.sotw1highlight,
+.sotw2highlight,
+.sotw3highlight {
+	width: 150px;
+	height: 22px;
+	position: absolute;
+	padding: 3px 0 0 0;
+	top: 45px;
+	font-family: 'Raleway', Arial, sans-serif;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.sotw1highlight {
+	background: rgba(0,200,50,.7);
+}
+
+.sotw2highlight {
+	background: rgba(255,0,0,.7);
+}
+
+.sotw3highlight {
+	background: rgba(255,230,29,.7);
+}
+/*-----Strains of the Week End-----*/
+
+/*-----Legalized Map Start-----*/
+#legalizedmarijuana {
+	margin: 150px 0 0 470px;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+
+.lmbar {
+	color: #fa5252;
+	background: #2c3034;
+	height: 29px;
+	width: 230px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+
+.legalizedmap {
+	width: 230px;
+	padding: 0;
+	margin-top: 10px;
+	border-right: 2px solid #fa5252;
+	border-left: 2px solid #fa5252;
+	border-bottom: 2px solid #fa5252;
+}
+/*-----Legalized Map End-----*/
+
+/*-----Delivery Start-----*/
+#delivery {
+	margin: 150px 0 0 710px;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+.deliverybar {
+	color: #FDEA15;
+	background: #2c3034;
+	height: 29px;
+	width: 173px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+.deliverydirections {
+	width: 90%;
+	padding: 0 8px 5px 8px;
+	margin-top: 10px;
+	border-right: 2px solid #fdea15;
+	border-left: 2px solid #fdea15;
+	border-bottom: 2px solid #fdea15;
+}
+/*-----Delivery End-----*/
+
+/*-----Advertising Start-----*/
+#advertising {
+	margin: 150px 0 0 893px;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+.adbar {
+	color: white;
+	background: #c4c4c4;
+	height: 2.2vw;
+	width: 129px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+.adbackground {
+	background: #c4c4c4;
+	width: 129px;
+	height: 100%;
+}
+
+.adbackground img {
+	margin: 0 15px;
+	padding: 5px 0;
+	display: block;
+}
+/*-----Advertising End-----*/
+
+/*-----What's In Your Bowl Start-----*/
+#wiyb {
+	background: none;
+	height: 220px;
+	margin: 390px 0 0 0;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+
+.wiybbar {
+	color: #ff6812;
+	background: #2c3034;
+	height: 29px;
+	width: 458px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+
+.wiyb {
+	margin-top: 10px;
+	width: 458px;
+	height: 700px;
+	border-right: 2px solid #ff6812;
+	border-left: 2px solid #ff6812;
+	border-bottom: 2px solid #ff6812;
+}
+/*-----What's In Your Bowl End-----*/
+
+/*-----In The News Start-----*/
+#inthenews {
+	margin: 360px 0 0 470px;
+	position: absolute;
+	left: 118px;
+	float: left;
+}
+.inthenewsbar {
+	color: #00ccff;
+	background: #2c3034;
+	height: 29px;
+	width: 230px;
+	text-align: center;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: .4vw 0 0 0;
+}
+.inthenews {
+	margin-top: 10px;
+	width: 230px;
+	height: 625px;
+	border-right: 2px solid #00ccff;
+	border-left: 2px solid #00ccff;
+	border-bottom: 2px solid #00ccff;
+}
+.inthenews2 {
+	margin-top: 10px;
+	width: 230px;
+	height: 623px;
+	border-right: 2px solid #00ccff;
+	border-left: 2px solid #00ccff;
+	border-bottom: 2px solid #00ccff;
+}
+
+.inthenews3 {
+	margin-top: 10px;
+	width: 230px;
+	height: 619px;
+	border-right: 2px solid #00ccff;
+	border-left: 2px solid #00ccff;
+	border-bottom: 2px solid #00ccff;
+}
+
+.newspic {
+	width: 210px;
+	margin: 0 8px;
+}
+
+.newstitle {
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 2px 8px 0 8px;
+	line-height: 16px;
+}
+
+.newsauthor {
+	font-family: 'Raleway', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #00ccff;
+	margin: 0 8px;
+}
+
+.newssection {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 1px 0;
+	line-height: 16.4px;
+}
+
+.newsbody {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 11px;
+	margin: 5px 8px 0 8px;
+	line-height: 12px;
+}
+
+.readmore {
+	background: #00ccff;
+	padding: 2px 10px;
+	text-align: right;
+}
+
+.readmore a {
+	color: white;
+	text-align: right;
+}
+/*-----In The News End-----*/
+
+
+
+
+
+
+
+
+/*-----Login Start-----*/
+.login {
+	height: 162px;
+	width: 250px;
+	background: #2c3034;
+	position: absolute;
+	top: 2540px;
+	right: 132px;
+}
+.username,
+.password {
+	margin: 0px 0px 20px 12px;
+	padding: 0 0 0 10px;
+	width: 90%;
+	height: 30px;
+	background: white;
+	border: none;
+	font-size: 11px;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+.username {
+	margin-top: 20px;
+}
+.signin,
+.signup {
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px;
+	color: #2c3034;
+	background: #4EF253;
+	font-size: 12px;
+}
+.signup {
+	margin: 0px 10px 10px 25%;
+}
+.signin:hover,
+.signup:hover {
+	background: #1AE151;
+}
+/*-----Login End-----*/
+
+/*-----Footer Start-----*/
+footer {
+	background: #2c3034;
+	height: 30px;
+	padding: 6px 0 0 0;
+	position: fixed;
+	bottom: 0;
+	width: 80vw;
+	left: 118px;
+}
+
+footer p {
+	margin: 0;
+	color: white;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-align: center;
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+/*-----Footer End-----*/
+
+/*-----DeliveryDrawer End-----*/
+iframe {
+	margin-top: 2540px;
+	width: 500px;
+	height: 300px;
+}
+/*-----DeliveryDrawer End-----*/
+
+
+
+
+
+
+
